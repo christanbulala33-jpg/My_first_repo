@@ -1,12 +1,13 @@
-import React from "react";
-import { SafeAreaView, StatusBar } from "react-native";
-import ChatScreen from "./ChatScreen";
+//App.js
+import {SafeAreaView} from 'react-native'
+import CommentApp from './CommentApp'
+import Messenger from './Messenger'
 
-export default function App() {
-  return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <StatusBar backgroundColor="#0078fe" barStyle="light-content" />
-      <ChatScreen />
+export default function App(){
+  return(
+    <SafeAreaView style={{flex: 1}}>
+      <Messenger/>
+      <CommentApp/>
     </SafeAreaView>
-  );
+    )
 }

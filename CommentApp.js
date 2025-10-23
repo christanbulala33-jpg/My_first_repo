@@ -1,4 +1,3 @@
-//CommentApp.js
 import React, { useState } from 'react';
 import { View, TextInput, Button, FlatList, Text, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
 
